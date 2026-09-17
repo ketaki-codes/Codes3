@@ -1,0 +1,5 @@
+def fun(a=10,b=20):
+ return a+b
+print(fun())
+print(fun(5))
+print(fun(30,10))

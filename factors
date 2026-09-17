@@ -1,0 +1,8 @@
+def factor(n,i):
+    if i > n:
+          return
+    if  n % i == 0:
+          print(i)
+    factor(n,i + 1)
+n = int(input("Enter a number : "))
+factor(n,1)      
